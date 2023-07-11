@@ -1,0 +1,330 @@
+.idfilm{
+    background-color: #E9F8F9;
+}
+
+
+.container {
+    display: flex;
+	justify-content: space-between;
+    background-color: #E9F8F9;
+    transform: scale(0.9);
+    height: 650px;
+    width: 1200px;
+    margin-left: 170px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 30px rgba(0, 0, 0, 0.2), 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.leftcolumn {
+    display:flex;
+    justify-content: center;
+    flex-basis: 50%;
+    flex-direction: column;
+    background-color:#e6e1e1cd;
+    align-items: center;
+}
+.rightcolumn {
+    display:flex;
+    flex-basis: 80%;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#C0EEF2;
+}
+
+  
+
+.a1 img{
+    width: 400px;
+    height: 600px;
+    border: 10px solid;
+    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+}
+
+.a1{
+    display: flex;
+    flex-basis:37%;
+}
+
+.intro{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 95%;
+    background-color:#C0EEF2;
+}
+
+.i1{
+    font-family: 'MyriadItalic', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #333333;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.i2{
+    font-family: 'Myriad', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+.i3{
+    max-height: 24px; /* Đặt chiều cao tối đa cho 2 dòng */
+    line-height: 24px; /* Đặt độ cao của mỗi dòng */
+    overflow: hidden; /* Ẩn phần vượt quá */
+    font-family: 'Myriad', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+.j1{
+    font-family: 'Myriad', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 13px;
+    background-color: #e6e1e1cd;
+    width: 200px;
+    text-align: center;
+    border: 3px solid;
+    border-image: linear-gradient(to right, #F06292, #FF8A65) 1;
+}
+.j2{
+    font-family: 'Myriad', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 13px;
+    max-height: 3.6em; /* Đặt chiều cao tối đa cho 2 dòng */
+    line-height: 1.8em; /* Đặt độ cao của mỗi dòng */
+    overflow: hidden; /* Ẩn phần vượt quá */
+}
+.btnbooking{
+font-family: 'Myriad', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-left: 250px;
+  margin-top:0px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF4081; /* Màu hồng */
+  color: #FFFFFF; /* Màu trắng */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+}
+.btnbooking:hover {
+    background-color: #E91E63; /* Màu hồng đậm */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  }
+.db {
+	color: black;
+    transition: color 0.1s ease;
+    text-decoration: none;
+}
+
+
+.starvote{
+    display:flex;
+    flex-direction: row;
+}
+.mschedule{
+    display:flex;
+    flex-direction: column;
+    margin-left: 40px;
+    transform: scale(0.8);
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 30px rgba(0, 0, 0, 0.2), 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+.schewrap{
+    background-color: #cdcdf5;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 70px;
+    margin-left: 40%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+.sche{
+    font-size: 30px;
+    color: #333;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+.newmoviewrap{
+    background-color: #cdcdf5;
+    padding: 5px;
+    border-radius: 10px;
+    width: 400px;
+    height: 60px;
+    margin-left: 37%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top:40px;    
+}
+.newmovie{
+    font-size: 25px;
+    color: #333;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+    font-weight: 700;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    margin-top:30px;
+}
+.namett{
+    font-size: 20px;
+    background-color: orange;
+    width: 450px;
+    height: 30px;
+    text-align: center;
+}
+.schedule{
+    display:flex;
+    flex-direction: row;
+    width: 95%;
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.alltime{
+    display:flex;
+    flex-direction: row;
+}
+.type{
+    margin-left: 10px;
+    margin-right: 150px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.time{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 3px;
+}
+.time:hover{
+    color: rgb(255, 77, 0);
+    border: 3px solid rgb(255, 77, 0);
+}
+
+.select{
+    margin-top:30px;
+}
+.datetime{
+    width: 200px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.theater{
+    font-size: 20px;
+    width: 300px;
+    margin-left: 150px;
+}
+
+.rating {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+    transform: rotate(180deg);
+    margin-top: 15px;
+  }
+.rating input {
+    display:none;
+  }
+  
+.rating label::before {
+    content: "\2605";
+    font-family: FontAwesome;
+    font-size: 30px;
+    color: black;
+    display: inline-block;
+    margin-left: 5px;
+    transform: rotate(180deg);
+}
+  
+  .rating input:checked ~ label::before {
+    color: #FFC107;
+  }
+  
+  .rating label:hover ~ label::before {
+    color: #FFC107;
+  }
+  .rating label:hover:before {
+    color: #FFC107;
+  }
+
+
+
+
+.slider {
+    width: 71%;
+    overflow: hidden;
+   scrollbar-color: rgba(255, 255, 255, 0.5);
+    margin-left: 230px;
+    background-color: black;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4), 0px 0px 30px rgba(0, 0, 0, 0.2), 0px 0px 40px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .slidercontainer {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: all 0.5s;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .slidercontainer img {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  .sliderbuttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sliderbutton {
+    font-size: 24px;
+  }
+
+
+
+

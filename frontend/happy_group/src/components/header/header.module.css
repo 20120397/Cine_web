@@ -1,0 +1,162 @@
+.header{
+    font-family: 'Segoe UI';
+    width: 100%;
+    font-style: normal;
+    background-color: #E9F8F9;
+}
+.subheader{
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    /* position: fixed; */
+    height: 55px;
+    background-color: #537FE7;
+    display: flex;
+    /* justify-content: space-between; */
+    font-weight: 400;
+    align-items: center;
+
+}
+.navbar_list{
+    /* position: fixed; */
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 800px;
+    margin: auto 0;
+
+
+}
+.navbar_list li {
+    /* color: white !important; */
+}
+.navbar_list a {
+    color: white !important;
+
+}
+.navbar_list a:hover{
+    color: orange !important;
+    text-decoration: none;
+}
+.navbar_list_icon{
+    right: 0%;
+    position: absolute;
+    transform: translateX(0%);
+    padding-right: 20px;
+}
+.navbar_item, .navbar_item_icon{
+    display: inline-block;
+    font-size: 18px;
+    color: white !important;
+
+}
+
+.navbar_item_icon :hover{
+    filter: 
+    invert(0.5)
+    sepia(1)
+    hue-rotate(600deg)
+    saturate(10)
+    brightness(1);
+}
+.navbar_item{
+    margin: 0 20px;
+    padding: auto;
+}
+.navbar_item_icon{
+    margin: 0 4px;
+}
+
+.logo {
+    width: 120px;
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+    font-size: 20px;
+    padding-left: 40px;
+    font-weight: bold !important;
+    font-family: 'Segoe UI Symbol';
+    cursor: pointer;
+}
+.searchbar{
+    font-weight: 400;
+    font-size: 13px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    font-style: italic;
+    color: gray;
+    border: #537FE7;
+    border-width: 1px;
+    border-radius: 15px;
+    width: 317px;
+    height: 32px;
+    border-style: solid;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 40px;
+    
+}
+.searchIcon{
+    position: absolute;
+    margin-left: -25px;
+
+}
+.login, .login_done{
+    font-weight: 500;
+    font-size: 13px;
+    font-style: normal;
+    right:0%;
+    position: absolute;
+    padding-right: 60px;
+    cursor: pointer;
+  
+}
+.loginIcon, .loginIcon_done{
+    /* margin-top: 15px; */
+    position: absolute;
+    right: 20%;
+}
+.login:hover{
+    filter: 
+    invert(0.5)
+    sepia(1)
+    hue-rotate(600deg)
+    saturate(10)
+    brightness(1);
+}
+.loginIcon_done:hover{
+    filter: 
+    invert(0.5)
+    sepia(1)
+    hue-rotate(600deg)
+    saturate(10)
+    brightness(1);
+}
+
+/*sticky8/*/
+.is_sticky {
+    background-color: #537FE7;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    height: 55px;
+    width: 100%;
+    transform: translateX( -50%);
+
+    z-index: 998;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* box-shadow: 0px 0px 20px #000; */
+}
+.is_sticky a{
+    color:  #E9F8F9 !important;
+}
+.img{
+    background-image: url(../../assets/imgs/movie.jpg);
+}

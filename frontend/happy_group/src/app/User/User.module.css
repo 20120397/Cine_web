@@ -1,0 +1,133 @@
+.body{
+    background-color: #E9F8F9;
+    color: black;
+    width: 100vw;
+    height: 200vh;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide the row into two equal columns */
+    grid-gap: 200px; /* Add some spacing between columns */
+    align-items: center;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 50px;
+  }
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+  }
+
+.Box1{
+    width: 60%;
+    height: 40%;
+    margin: auto ;
+    margin-top: 5%;
+    position: relative;
+}
+
+.Box2{
+    
+    width: 90%;
+    height: 45%;
+    margin: auto ;
+    margin-top: 5%;
+    position: relative;
+}
+
+
+.ibox{
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    bottom: 0;
+    border-radius: 30px;
+    margin-left:5% ;
+    margin-right: 5%;   
+    margin-bottom: 5%;
+    border: 2px solid #537FE7;
+    box-shadow: 30px 30px 1px rgba(83, 127, 231, 0.1);
+    }
+
+.pic{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    left: 50%;
+    border-radius: 100%;
+    border: 3px solid #C0EEF2;
+    transform: translate(-50%, 0%);
+}
+
+.name{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: xx-large;
+}
+
+
+.infoList{
+    position: absolute;
+    /* background-color: blue; */
+    top: 35%;
+    margin-left: 10%;
+    line-height: 350%;
+    list-style-type: none;  
+}
+
+
+.hbox{
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    bottom: 0;
+    border-radius: 40px;
+    margin-left:5% ;
+    margin-right: 5%;   
+    margin-bottom: 5%;
+    border: 2px solid #C0EEF2;
+    box-shadow: 30px 30px 1px rgba(83, 127, 231, 0.1);
+}
+
+.his{
+    position: absolute;
+    background-color: #537FE7;
+    font-size: xx-large;
+    margin-left:8% ;
+    border-radius: 30px;
+    width:30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+}
+
+.hisTable{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.hisTable td{
+    text-align: center;
+    border: 1px solid #537FE7;
+}
+
+.hisTable th{
+    text-align: center;
+    border: 1px solid #537FE7;
+}
+
+
+
+

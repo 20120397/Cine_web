@@ -1,0 +1,18 @@
+.movies_part{
+    display: block;
+}
+
+.header{
+    display:grid;
+    grid-column: auto;
+    grid-column-gap: 5%;
+    grid-template-columns: 10% 10% 10% 10% 20%;
+}
+
+.movies_table{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.timing{
+    display: inline-flex;
+}

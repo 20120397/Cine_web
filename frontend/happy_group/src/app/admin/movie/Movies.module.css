@@ -1,0 +1,126 @@
+.navbar{
+    margin-top: 5px;
+    height: 40px;
+    color: var(--primary-color-1);
+    background-color: var(--primary-color-3);
+    vertical-align: middle;
+    align-items: center;
+}
+
+.nav_list{
+    display: flex;
+    list-style-type: none;
+    padding-left: 10px;
+    align-items: center;
+}
+.nav_item{
+    padding-right: 25px;
+    /* background-color: aliceblue; */
+    width: fit-content;
+    /* vertical-align: middle; */
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-left: solid 2px;
+    cursor: pointer;
+  
+}
+.nav_item_curr{
+    padding-right: 25px;
+    /* background-color: aliceblue; */
+    width: fit-content;
+    /* vertical-align: middle; */
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-left: solid 2px;
+    color: white;
+    background-color: var(--primary-color-2);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+  
+}
+.search_bar_nav{
+width: 300px;
+   position: absolute;
+   right: 0%;
+   border-radius: 20px;
+   border: solid 1px var(--primary-color-2);
+   padding: 5px 10px 5px 10px;
+   top: 60px;
+
+
+}
+.input{
+    border: none;
+    width: 250px;
+    background-color: var(--primary-color-3);
+}
+.search_bar_nav_icon{
+    margin-right: 10px;
+}
+.input::placeholder{
+    font-style: italic;
+
+}
+.input:focus-visible{
+    border: none;
+}
+.nav_item_focus{
+
+}
+.movies_part{
+    display: block;
+}
+
+.header{
+    padding: 10px 10px 10px 10px;
+    display:grid;
+    grid-column: auto;
+    grid-column-gap: 40px;
+    grid-template-columns:20% 2% 20% 2% 20%;
+}
+
+.movies_table{
+    display: grid;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+    background-color: white;
+}
+.movies_table_header, .movies_table_row {
+    border-top: solid 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 5% 20%  10% 10% 10% 10% 10% 10% 10%;
+    color: var(--primary-color-1);
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+}
+.movies_table_row{
+    color: black !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+.timing{
+    display: inline-flex;
+    color:white;
+    background-color: var(--primary-color-1);
+    width: fit-content;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+.movies_table_col{
+    border-right: solid 1px;
+}
+.movies_table_col img{
+    border-right: solid 1px;
+    margin-left: 10px;
+}

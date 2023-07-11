@@ -1,0 +1,51 @@
+.body{
+    background-color: #FFFBF5;
+}
+.title{
+    margin-left: 2%;
+    background-color: #F7EFE5;
+    margin-bottom: 1%;
+    font-size: 20px;
+}
+
+.name{
+    background-color: #C3ACD0;
+    font-size: larger;
+    padding: 5px;
+    margin-right: 40%;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.info{
+    font-size: 25px;
+    margin-top: 1%;
+    margin-bottom:1%;
+    margin-left: 2%;
+}
+.info:hover{
+    color: chocolate;
+}
+.schedules{
+    margin-top: 3%;
+    font-size: 25px;
+    background-color: #F7EFE5;
+    margin-left: 1%;
+}
+.input{
+    width: 90%;
+    height: 30px;
+    font-size: large;
+}
+
+.data{
+    font-size: 25px;
+    color:#800080;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: 700;
+    width: 1000px;
+}
+.flex{
+    display: flex;;
+}
+

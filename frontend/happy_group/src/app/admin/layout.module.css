@@ -1,0 +1,11 @@
+.layout_admin{
+    background-color: #FFFBF5;
+    display: flex;
+
+} 
+
+.content{
+    display: block;
+    width: 100%;
+    margin-left: 200px;
+}

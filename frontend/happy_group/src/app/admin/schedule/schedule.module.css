@@ -1,0 +1,46 @@
+.table{
+    color: black;
+    width: 80vw;
+}
+.table tr {
+    /* display: flex; */
+}
+.table tbody{
+    /* display: block; */
+}
+.table th{
+    border: 1px solid black;
+}
+
+.table td{
+    border: 1px solid black;
+    vertical-align: top;
+}
+.input{
+    border: 1px solid black;
+
+ }
+.table input{
+    background-color: white;
+    color: black;
+    border:none;
+    outline: none;
+    width: 100%;
+}
+.table li{
+    list-style-type: none;
+}
+.add_row_img{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    vertical-align: middle;
+}
+ 
+.add_sheet{
+    /* display: inline-flex; */
+    /* width: fit-content; */
+}
+
+.add_sheet select{
+    width: 100%;
+}
